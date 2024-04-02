@@ -1,0 +1,207 @@
+.body3{
+    height: 120vh;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 80px 1fr;
+    grid-template-areas: "side header" "side main";
+    background-color: #c3c5ca;
+}
+
+.container3{
+    text-align: center;
+    width: 80%;
+    height: 12px;
+    margin-right: 39px;
+    border: 30px solid var(--clr-dark);
+    background-color: #6c757d;
+    border-radius: 8px;
+}
+
+.item3{   
+    position: absolute;   
+    margin-left: 300px;
+    width: 999px;
+    height: 118%;
+    background-color: white;
+    padding: 1rem;
+    font-weight: 700;
+    color: var(--clr-light);
+    border: 10px solid #eae1e1;
+    border-radius: 10px;
+}
+
+.welcome3{
+    position: relative;
+    right: 46%;
+    bottom: 12px;
+    }
+
+.setting_main{
+    padding: 25px;
+    grid-area: main;
+    display: grid;
+}
+
+.setting_card{
+    position: relative;
+    top: -51px;
+    right: 51px;
+    background-color:#474747;
+    border-radius: 10px;
+    height: 60px;
+    width: 1000px;
+}
+.Setting_heading{
+    position: relative;
+    right: 450px;
+    top: 32%;
+}
+
+.Setting_login{
+    position: relative;
+    color: black;
+    right: 450px;
+    top: -22px;
+}
+
+.setting_email{
+    position: relative;
+    color: black;
+    right: 320px;
+
+}
+
+.setting_password{
+    position: relative;
+    color: #474747;
+    right: 320px;
+    top: 70px;
+}
+
+.btn-success1{
+position: relative;
+top: -80px;
+border-radius: 5px;
+background-color: green;
+color: white;
+}
+
+.btn-success1:hover{
+    background-color: rgb(1, 97, 1);
+}
+
+.btn-success2{
+position: relative;
+bottom: 1px;
+border-radius: 5px;
+background-color: green;
+color: white;
+}
+
+.btn-success2:hover{
+    background-color: rgb(1, 97, 1);
+}
+
+.horizontal_1{
+    position: relative;
+    width: 100%;
+}
+
+.Setting_hr{
+    position: relative;
+    border-top: 1px solid black;
+    top: 22px;
+    width: 912px;
+}
+
+.Setting_language{
+    position: relative;
+    top:12px;
+    color: black;
+    right: 450px;
+}
+
+.Setting_planguage{
+    position: relative;
+    color: black;
+    top: 50px;
+    right:320px;
+}
+
+.Setting_hr1{
+    position: relative;
+    border-top: 1px solid black;
+    top: 80px;
+    width: 912px;  
+}
+
+.Setting_droupbox{
+    position: relative;
+    left: 70px;
+    top: 9px;
+}
+
+.Setting_Name{
+    width: 320px;
+    height: 35px;
+    border-radius: 1px;
+}
+.Setting_3{
+    position: relative;
+    top: 120px;
+    color: black;
+    right: 380px;
+}
+
+.Setting_tax1{
+    position: relative;
+    top: 150px;
+    color: black;
+    right: 320px;
+}
+.Setting_tax2{
+    position: relative;
+    top: 190px;
+    color: black;
+    right: 320px;
+}
+.change1{
+position: relative;
+top: 70px;
+border-radius: 5px;
+background-color: green;
+color: white;
+left: 50px;
+}
+.change1:hover{
+    background-color: rgb(1, 97, 1);
+}
+
+.change2{
+    position: relative;
+    top: 140px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    right: 20px;
+    }
+
+    .change2:hover{
+        background-color: rgb(1, 97, 1);
+    }
+.change_hr{
+    position: relative;
+    border-top: 1px solid black;
+    right: 40px;
+    top: 190px;
+    width: 980px;    
+}
+.change3{
+    position: relative;
+    top: 250px;
+    border-radius: 5px;
+    background-color: #007bff;
+    height: 40px;
+    color: white;
+    left: 275px;
+}

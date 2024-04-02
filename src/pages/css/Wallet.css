@@ -1,0 +1,117 @@
+.card4{
+    background-color:#d0d1d4;
+    border-radius: 1px;
+    height: 200%;
+    width: 190%;
+}
+.main{
+    /* background-color: #c3c5ca; */
+    padding: 25px;
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+.wallet1{
+    position: relative;
+    right: 43%;
+    bottom: 12px;
+}
+
+.box{
+    position: relative;
+    top: 26px;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 20px;
+    width: 230px;
+    height: 80px; 
+    margin-left: 80px;
+    background-color: #d0d1d4;
+}
+.box1{
+    position: relative;
+    top: -52px;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 20px;
+    width: 230px;
+    height: 80px; 
+    margin-left: 400px;
+    background-color: #d0d1d4;
+}
+
+.wallet_btn4{
+position: absolute;
+margin-left: 6%;
+border-radius: 12px;
+}
+
+.wallet_btn4:hover{
+    background-color: skyblue;
+    color: aliceblue;
+}
+
+.search_bar3{
+    position: absolute;
+    margin-left: 30%;
+    top: 33%;
+}
+
+.waller_p{
+ position: relative;
+ left: 80px;
+ top: 70px;
+}
+.wallet_table{
+    position: relative;
+    top: 50px;
+    left: 80px;
+}
+.wallet_data{
+    position: absolutes;
+    top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.wallet_data td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.wallet_data th{
+    border: 1px solid #170f0f;
+    background-color: #1F456E;
+    padding: 8px;
+}
+
+.walletview_btn{
+    border-radius: 38%;
+    margin: 2px 2px;
+}
+.walletview_btn{
+position: relative;
+left: 200%;
+top: -55px;
+}
+
+.walletview_btn:hover{
+    background-color: #004461;
+    color: white;
+}
+
+.round_box{
+    border-radius: 5px;
+    border: 2px solid orange;
+    padding: 2px; 
+    width: 83px;
+    height: 28px; 
+}
+
+.wallet_pages{
+    position: absolute;
+    left: 27%;
+    top: 90%;
+}

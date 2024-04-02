@@ -1,0 +1,126 @@
+.body {
+    height: 120vh;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 80px 1fr;
+    grid-template-areas: "side header" "side main";
+  }
+
+:root{
+    --clr-dark:#c3c5ca;
+    --clr-light:#f1f5f9;
+    --clr-accent:#e11d48;
+}
+
+.container{
+    text-align: center;
+    width: 80%;
+    height: 12px;
+    margin-right: 39px;
+    border: 30px solid var(--clr-dark);
+    background-color: #6c757d;
+    border-radius: 8px;
+}
+
+.item{
+    position: absolute;
+    top: 10px;
+    text-align: center;    
+}
+
+.main{
+    /* background-color: #c3c5ca; */
+    padding: 25px;
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "c1 c2 c3"
+    "c4 c5 c6"
+    "c7 c7 c8";
+    gap: 20px;
+}
+
+.card{
+    background-color:#f6f7f9;
+    border-radius: 10px;
+}
+
+.card:nth-child(1) {
+    grid-area: c1;
+  }
+  
+  .card:nth-child(2) {
+    grid-area: c2;
+  }
+  
+  .card:nth-child(3) {
+    grid-area: c3;
+  }
+
+  .card:nth-child(4) {
+    grid-area: c4;
+    border-radius: 1px;
+    height: 169px;
+  }
+  
+  .card:nth-child(5) {
+    grid-area: c5;
+    border-radius: 1px;
+    height: 169px;
+  }
+  
+  .card:nth-child(6) {
+    grid-area: c6;
+    border-radius: 1px;
+    height: 169px;
+  }  
+  .card:nth-child(7) {
+    position: relative;
+    bottom: 60px;
+    grid-area: c7;
+  }  
+  .card:nth-child(8) {
+    position: relative;
+    bottom: 60px;
+    grid-area: c8;
+  } 
+.item{   
+    position: absolute;   
+    margin-left: 300px;
+    width: 999px;
+    height: 10px;
+    background-color: #c3c5ca;
+    padding: 1rem;
+    font-weight: 700;
+    color: var(--clr-light);
+    border: 10px solid var(--clr-dark);
+    border-radius: 10px;
+    color: black;
+}
+.welcome{
+position: relative;
+right: 43%;
+bottom: 12px;
+}
+.title {
+  display: flex;
+  position: absolute;
+  padding: 23px;
+  top: 80px;
+  color: #17a2b8;
+}
+
+.icon-st > img {
+  padding-left: 22px;
+  width: 3rem;
+  height: 3rem;
+}
+
+.icon-Therapist {
+  position: relative;
+  display: flex;
+  padding-left: 31px;
+  top: 90px;
+}

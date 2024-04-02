@@ -1,0 +1,131 @@
+.card2{
+    background-color:#d0d1d4;
+    border-radius: 1px;
+    height: 280%;
+    width: 300%;
+  }
+.but1{
+    position: relative;
+    top: 18px;
+    left: 15px;
+    border-radius: 12px;
+}
+.but2{  
+    position: relative; 
+    top: 18px;
+    left: 19px;
+    border-radius: 12px;
+}
+.but3{
+    position: relative;
+    top: 18px;
+    left: 23px;
+    border-radius: 12px; 
+} 
+
+.but1:hover{
+background-color: #3070ab;
+color: white;
+}
+.but2:hover{
+    background-color: #3070ab;
+    color: white;
+}
+.but3:hover{
+    background-color: #3070ab;
+    color: white;
+}
+
+#ip2 {
+    position: relative;
+    top: 18px;
+    left: 403px;
+    border-radius: 25px;
+    border: 2px solid rgb(154, 89, 219);
+    box-shadow: 100px;
+    padding: 20px; 
+    width: 260px;
+    height: 15px;    
+}
+#ip2:hover{
+    border: 2px solid rgb(121, 48, 194);
+    border-radius: 30px;
+}
+
+.total{
+    position: relative;
+    left: 10px;
+}
+
+.d_pages{
+position: absolute;
+left: 28%;
+top: 45%;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+    border: 2px solid black;
+    border-radius: 2px;
+  }
+  .previous:hover{
+    border: 2px solid skyblue;
+    
+  }
+  .previous:active{
+    border: 2px solid skyblue;
+  }
+
+
+.next {
+    background-color: #f1f1f1;
+    color: rgb(11, 6, 6);
+    border: 2px solid black;
+    border-radius: 2px;
+ }
+
+.next:hover{
+    border: 2px solid skyblue;  
+}
+
+.next:active{
+    border: 2px solid skyblue;   
+}
+ a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+ 
+  }
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.table_headeing{
+    position: absolute;
+    padding-right: 12%;
+    top: 240px;
+    right: 174px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #384B5B;
+    color: white;
+   font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 64%;  
+}
+
+.therapist{
+  position: relative;
+  left: 150px;
+  width: 800px;
+}
+
+.total{
+  position: relative;
+  left: -200%;
+  top: 110px;
+}

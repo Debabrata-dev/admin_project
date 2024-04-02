@@ -1,0 +1,77 @@
+.card3{
+    background-color:#d0d1d4;
+    border-radius: 1px;
+    height: 480%;
+    width: 250%;
+}
+.main_client{
+    /* background-color: #c3c5ca; */
+    padding: 25px;
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+.client1{
+    position: relative;
+    right: 46%;
+    bottom: 12px;
+}
+
+.total_1{
+ position: absolute;
+ top:140px;
+ left: 26%;
+
+}
+
+.client_table{
+    position: absolutes;
+    top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+.client_table td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.client_table th{
+    border: 1px solid #170f0f;
+    background-color: #1F456E;
+    padding: 8px;
+}
+
+.customer_table{
+ position: relative;
+ left: 68px;
+ width: 100%;
+ top: 60px;
+ 
+}
+.active_color{
+    color: orange;
+}
+
+.cd{
+    border-radius: 15%;
+    margin: 2px 2px;
+}
+.cd:hover{
+    background-color:#004461;
+    color: aliceblue;
+}
+.three_dot{
+    position: relative;
+    color: #170f0f;
+    left: 50%;
+}
+/* card3{
+background-color:#d0d1d4;
+border-radius: 1px;
+height: 280%;
+width: 300%;
+} */

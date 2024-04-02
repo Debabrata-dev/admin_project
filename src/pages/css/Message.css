@@ -1,0 +1,153 @@
+.body2{
+    height: 120vh;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 80px 1fr;
+    grid-template-areas: "side header" "side main";
+}
+
+.container2{
+    text-align: center;
+    width: 80%;
+    height: 12px;
+    margin-right: 39px;
+    border: 30px solid var(--clr-dark);
+    background-color: #6c757d;
+    border-radius: 8px;
+}
+
+.item2{   
+    position: absolute;   
+    margin-left: 300px;
+    width: 999px;
+    height: 10px;
+    background-color: #c3c5ca;
+    padding: 1rem;
+    font-weight: 700;
+    color: var(--clr-light);
+    border: 10px solid var(--clr-dark);
+    border-radius: 10px;
+    color: black;
+}
+
+.welcome2{
+    position: relative;
+    right: 46%;
+    bottom: 12px;
+    }
+
+.Message_card1{
+    position: relative;
+    top: 92px;
+    left: 3%;
+    background-color:#c3c5ca;
+    border-radius: 10px;
+    height: 720px;
+    width: 1000px;
+}
+
+.Message_card2{
+    position: relative;
+    top: 12px;
+    left: 2%;
+    background-color:white;
+    border-radius: 5px;
+    height: 690px;
+    width: 370px;
+}
+
+.Message_card3{
+    position: relative;
+    top: -680px;
+    left: 40%;
+    background-color:skyblue;
+    border-radius: 5px;
+    height: 550px;
+    width: 570px;
+}
+
+.Message_Name{
+    position: relative;
+    width: 170px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    top: 8px;
+    left: 12px;
+}
+
+.Message_Name:hover{
+    
+}
+
+.Message_button{
+position: relative;
+left: 208px;
+width: 150px;
+border-radius: 6px;
+top: -33px;
+}
+.search{
+width: 320px;
+}
+.Message_searchbar{
+    position: relative;
+    left: 12px;
+   
+}
+
+.account_bar1{
+    position: relative;
+    /* top: -680px; */
+    top: 25px;
+    left: 5%;
+    background-color:rgb(242, 233, 216);
+    border-radius: 5px;
+    height: 60px;
+    width: 320px;
+}
+
+.account_bar2{
+    position: relative;
+    top: 35px;
+    left: 5%;
+    background-color:rgb(242, 233, 216);
+    border-radius: 5px;
+    height: 60px;
+    width: 320px;
+}
+
+.message1{
+    position: relative;
+    top: 12px;
+    left: 92px;
+}
+
+.message2{
+    position: relative;
+    top: 12px;
+    left: 92px;
+}
+
+.Message_profile{
+    position: relative;
+    top: -1px;
+    left:1px;
+    background-color:#1A3845;
+    border-radius: 5px;
+    height: 60px;
+    width: 569px;
+    color: white;
+}
+.Heading_profile{
+    position: relative;
+    left: 260px;
+    top: 15px;
+}
+
+.dot_3{
+  position: relative;
+  left: 96%;
+  top: -15px;
+
+}
